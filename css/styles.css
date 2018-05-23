@@ -1,9 +1,80 @@
 .container{
   width: auto;
 }
-#content{
-  width: 100%
+#sidebar{
+  background-color:#1e2e3f;
+}
+.logo{
+  text-align: center;
+}
+.links{
+  height: 140vh;
+}
+.links a{
+  color: #fff;
+}
+.upgrade{
+padding-bottom: 50px;
+}
+#searchPhotos{
+  height: 100%;
+}
+.search{
+  padding: 20px;
+  border-bottom: solid #faf4f4 1px;
+}
+.search input{
+  border: 0px;
+}
+.dropdown{
+  float: right;
+}
+.glyphs{
+  float: left;
+  padding-left: 25px;
+}
+.butts{
+  float: right;
+}
+.photos h2{
+  font-size: 40px;
+  font-weight: 100;
+  font-family: sans-serif;
+  font-style: normal;
+  padding-left: 25px;
 }
 #row1{
   height: 250px;
+  border-bottom: solid #D5D5D4 1px;
+}
+#content{
+  padding-top: 50px;
+}
+.images{
+  height: 300px;
+}
+p{
+  padding-top: 20px;
+}
+.storage{
+  color: #fff;
+}
+.bar{
+  width: 100%;
+  background-color: #D5D5D4
+}
+#bar{
+  width:50%;
+  height: 5px;
+  background-color: blue;
+}
+.upgrade{
+  color: #fff;
+  text-align: center;
+}
+.btn{
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #1e2e3f;
+  border: solid blue 1px;
 }
