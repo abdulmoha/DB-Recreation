@@ -16,7 +16,6 @@ EMail.prototype.mailen = function(){
 }
 
 //User Logic
-//making the pop up modal to essentially pop up
 $(document).ready(function(){
     $("#myModal").modal('show');
 
@@ -40,6 +39,7 @@ $(document).ready(function(){
 
     $("input#name").val("");
     $("input#email").val("");
+
 
   });
 });
