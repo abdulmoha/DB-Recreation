@@ -13,6 +13,13 @@ Ahmed Mohamed
 - `atom .`
 - `code .` (if using visual studio code is your preffered text editor)
 
+##### Technologies used:
+- `HTML`
+- `CSS`
+- `Bootstrap`
+- `JQuery`
+- `Javascript`
+
 
 ## License
 
