@@ -8,7 +8,7 @@ Ahmed Mohamed
 ## Project setup instructions
 ##### To see the work done use the following commands:
 
-- `git clone https://abdulmoha.github.io/DB-Recreation/`
+- `git clone https://github.com/abdulmoha/DB-Recreation.git`
 - `cd dropBox`
 - `atom .`
 - `code .` (if using visual studio code is your preffered text editor)
