@@ -27,7 +27,7 @@ $(document).ready(function(){
       var inputtedName = $("input#name").val();
       var newName = new Name(inputtedName);
 
-     $("ul.namen").append(newName.namen() + "<li><span class='contact'>"  + "</span></li>");
+     $("ul.namen").append("<span class='contact'>" + newName.namen()  + "</span>");
 
      var inputtedMail = $("input#email").val();
      var newEMail = new EMail(inputtedMail);
@@ -37,6 +37,9 @@ $(document).ready(function(){
       });
 
     $("ul.mailen").append(newEMail.mailen());
+
+    $("input#name").val("");
+    $("input#email").val("");
 
   });
 });
