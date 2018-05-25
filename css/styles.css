@@ -31,6 +31,9 @@ padding-bottom: 50px;
 .dropdown{
   float: right;
 }
+.mailen{
+  display: none;
+}
 .glyphs{
   float: left;
   padding-left: 25px;
