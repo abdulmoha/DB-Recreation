@@ -41,6 +41,9 @@ padding-bottom: 50px;
 .glyphs p{
   display: none;
 }
+.glyphs:hover p{
+  display: block;
+}
 .butts{
   float: right;
   display: inline-block;
