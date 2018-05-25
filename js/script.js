@@ -33,7 +33,7 @@ $(document).ready(function(){
      var inputtedMail = $("input#email").val();
      var newEMail = new EMail(inputtedMail);
 
-     $(".contact").last().hover(function() {
+     $(".contact").last().click(function() {
         $(".mailen").show();
       });
 
