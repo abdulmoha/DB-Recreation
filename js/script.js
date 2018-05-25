@@ -23,23 +23,28 @@ $(document).ready(function(){
     $("form#nameNmail").submit(function(event) {
       event.preventDefault();
 
+      $('#myModal').modal('hide');
+
       var inputtedName = $("input#name").val();
       var newName = new Name(inputtedName);
 
-     $("ul.namen").append("<span class='contact'>" + newName.namen()  + "</span>");
+     $("ul.namen").append("<span class='glyphicon glyphicon-bell'></span>" + "<span class='contact'>" + newName.namen()  + "</span>");
 
      var inputtedMail = $("input#email").val();
      var newEMail = new EMail(inputtedMail);
 
-     $(".contact").last().click(function() {
+     $(".contact").last().hover(function() {
         $(".mailen").show();
       });
+
+      $(".mailen").last().click(function() {
+         $(".mailen").hide();
+       });
 
     $("ul.mailen").append(newEMail.mailen());
 
     $("input#name").val("");
     $("input#email").val("");
-    
 
 
   });
