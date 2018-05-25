@@ -37,7 +37,7 @@ $(document).ready(function(){
         $(".mailen").show();
       });
 
-      $(".mailen").last().click(function() {
+      $(".mailen").last().hover(function() {
          $(".mailen").hide();
        });
 
